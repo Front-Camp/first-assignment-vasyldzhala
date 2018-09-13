@@ -8,6 +8,8 @@
  * isObject(null); // false
  */
 const isObject = data => {
+
+  return (typeOf(data)  === "object") ;
   /* your logic here...*/
 };
 
