@@ -9,7 +9,7 @@
  */
 const isObject = data => {
 
-  return (typeOf(data)  === "object") ;
+  return (typeof(data)  === "object") ;
   /* your logic here...*/
 };
 
